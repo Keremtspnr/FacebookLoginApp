@@ -1,0 +1,81 @@
+.pagesListBox {
+  height: 60px;
+  line-height: 60px;
+  background-color: #f1f1f1;
+  margin: 5px 0;
+  border-radius: 3px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+.pagesListBox:hover {
+  background-color: #343a40;
+  color: white;
+}
+
+.pagesListLinks{
+  color:inherit !important;
+  text-decoration: none !important;
+}
+
+.messageBox{
+  height: 700px;
+  background-color: #f3f3f3;
+  border-radius: 5px;
+  padding-left: 0;
+  padding-right: 0;
+}
+.messagePerson {
+  background-color: #343a40;
+  height: 700px;
+  color: #fff;
+  padding-left: 0;
+  padding-right: 0;
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+  float:left;
+  overflow-y: scroll;
+}
+.messageArea {
+  height: 700px;
+  float:left;
+  overflow-y: scroll;
+}
+.messagePersonLink {
+  height: 60px;
+  line-height: 60px;
+  cursor: pointer;
+  transition: 0.2s;
+}
+.messagePersonLink:hover {
+  color:#343a40;
+  background-color:#f3f3f3;
+}
+.messagePersonTitle {
+  color: #87898c;
+  padding-top: 10px;
+}
+.messageAreaTitle {
+  color: #a7a7a7;
+}
+.messageSender {
+  float: left;
+  clear: both;
+  text-align: left;
+  background-color: #ffffff;
+  color: #343a40;
+  border-radius: 10px;
+  margin-right: 100px !important;
+}
+.messageMe {
+  float: right;
+  clear: both;
+  text-align: right;
+  background-color: #0084ff;
+  color: #fff;
+  border-radius: 10px;
+  margin-left: 100px !important;
+}
+.message {
+  padding: 5px 10px;
+  margin: 10px 0;
+}
